@@ -44,7 +44,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: XY-C1
+        TNAME: RM2100
         KERNEL: 4.4
       run: |
         cd /opt/rt-n56u/trunk
@@ -125,5 +125,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages
+        name: Padavan-RM2100
         path: /opt/images
