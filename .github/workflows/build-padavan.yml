@@ -48,7 +48,8 @@ jobs:
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
-        sh change_logo.sh $TNAME #替换logo
+        # 替换logo
+        sh change_logo.sh $TNAME
         if [ ! -f configs/templates/$TNAME.config ] ; then
         echo "configs/templates/$TNAME.config not found "
         exit 1
@@ -126,6 +127,6 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        #修改名字方便辨认是哪一个型号的固件，Padavan(机器型号)
-        name: Padavan(XY-C1)
+        #修改名字方便辨认是哪一个型号的固件，Padavan_内核版本(机器型号)
+        name: Padavan_3.4(XY-C1)
         path: /opt/images
