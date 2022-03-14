@@ -126,5 +126,6 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-$TNAME
+        #修改名字方便辨认是哪一个型号的固件，Padavan(机器型号)
+        name: Padavan(XY-C1)
         path: /opt/images
