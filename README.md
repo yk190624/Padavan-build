@@ -21,6 +21,6 @@
   - fork自chongshengB大佬的rt-n56u项目
   - 替换了`htop-2.0.2.tar.gz`为`htop-3.0.2.tar.gz`文件，解决编译失败问题
   - 添加了`rt-n56u/trunk/change_logo.sh`替换logo脚本文件及logo图片，根据机型自动替换logo
-- 本人的padavan-4.4码地址：
+- 本人的padavan-4.4码地址：https://github.com/Ryukarin/padavan-4.4.git
   - fork自MeIsReallyBa大佬的padavan-4.4项目
   - 添加了`padavan-4.4/trunk/change_logo.sh`替换logo脚本文件及logo图片，根据机型自动替换logo
