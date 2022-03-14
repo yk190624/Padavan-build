@@ -16,7 +16,7 @@
 
 ## 更改内容
 
-- 修改源码：第42行，将3.4内核版本的源码改称我自己的源码，4.4内核版本为MeIsReallyBa大佬的padavan-4.4项目
+- 修改源码：第40行，将3.4内核版本的源码改称我自己的源码；第38行，4.4内核版本为MeIsReallyBa大佬的padavan-4.4项目
 - 本人的rt-n56u源码地址：https://github.com/Ryukarin/rt-n56u.git
   - fork自chongshengB大佬的rt-n56u项目
   - 添加了`htop-3.0.2.tar.gz`文件，解决编译失败问题
