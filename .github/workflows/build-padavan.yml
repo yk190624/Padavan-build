@@ -32,7 +32,7 @@ jobs:
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
     - name: Clone source code
       env:
-        KERNEL: 3.4
+        KERNEL: 4.4
       run: |
         if [ $KERNEL = "4.4" ] ; then
         git clone --depth=1 https://github.com/Ryukarin/padavan-4.4.git /opt/rt-n56u
@@ -45,7 +45,7 @@ jobs:
     - name: Build Firmware
       env:
         TNAME: XY-C1
-        KERNEL: 3.4
+        KERNEL: 4.4
       run: |
         cd /opt/rt-n56u/trunk
         # 替换logo
@@ -128,5 +128,5 @@ jobs:
       if: always()
       with:
         #修改名字方便辨认是哪一个型号的固件，Padavan_内核版本(机器型号)
-        name: Padavan_3.4(XY-C1)
+        name: Padavan_4.4(XY-C1)
         path: /opt/images
