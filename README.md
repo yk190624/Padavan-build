@@ -16,10 +16,11 @@
 
 ## 更改内容
 
-- 修改源码：第40行，将3.4内核版本的源码改称我自己的源码；第38行，4.4内核版本为MeIsReallyBa大佬的padavan-4.4项目
+- 修改源码：第40行，将3.4内核版本的源码改称我自己的源码；第38行，4.4内核版本也改成了本人的padavan-4.4源码
 - 本人的rt-n56u源码地址：https://github.com/Ryukarin/rt-n56u.git
   - fork自chongshengB大佬的rt-n56u项目
-  - 添加了`htop-3.0.2.tar.gz`文件，解决编译失败问题
+  - 替换了`htop-2.0.2.tar.gz`为`htop-3.0.2.tar.gz`文件，解决编译失败问题
   - 添加了`rt-n56u/trunk/change_logo.sh`替换logo脚本文件及logo图片，根据机型自动替换logo
-  
-    比如你要编译K2P固件，那么编译完成刷入路由进入后台，则显示PHICOMM的logo
+- 本人的padavan-4.4码地址：
+  - fork自MeIsReallyBa大佬的padavan-4.4项目
+  - 添加了`padavan-4.4/trunk/change_logo.sh`替换logo脚本文件及logo图片，根据机型自动替换logo
