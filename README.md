@@ -21,4 +21,5 @@
   - fork自chongshengB大佬的rt-n56u项目
   - 添加了`htop-3.0.2.tar.gz`文件，解决编译失败问题
   - 添加了`rt-n56u/trunk/change_logo.sh`替换logo脚本文件及logo图片，根据机型自动替换logo
+  
     比如你要编译K2P固件，那么编译完成刷入路由进入后台，则显示PHICOMM的logo
