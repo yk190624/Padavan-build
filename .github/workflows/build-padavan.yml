@@ -1,4 +1,4 @@
-#修改TNAME: K2P 中的K2P为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同
+# 修改TNAME: XY-C1 中的XY-C1为你需要编译的型号（第19行），注意名称要与configs/templates/目录下的名字相同
 name: Build Padavan
 
 on: 
