@@ -16,7 +16,7 @@ on:
     
 env:
   KERNEL: 3.4
-  TNAME: XY-C1
+  TNAME: MSG1500
   DEBIAN_FRONTEND: noninteractive
   
 jobs:
@@ -109,7 +109,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config #可以不集成
         echo "CONFIG_FIRMWARE_INCLUDE_WYY=y" >> .config #网易云解锁
-        echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=n" >> .config #网易云解锁GO版本执行文件（4M多）注意固件超大小,不集成会自动下载
+        echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=y" >> .config #网易云解锁GO版本执行文件（4M多）注意固件超大小,不集成会自动下载
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
         fi
         #########################################################################################
@@ -126,5 +126,5 @@ jobs:
       if: always()
       with:
         #修改名字方便辨认是哪一个型号的固件，Padavan_内核版本(机器型号)
-        name: Padavan3.4(XY-C1)
+        name: Padavan3.4(MSG1500)
         path: /opt/images
