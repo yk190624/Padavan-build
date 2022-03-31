@@ -15,7 +15,7 @@ on:
     types: [started]
     
 env:
-  KERNEL: 3.4
+  KERNEL: 4.4
   TNAME: MSG1500
   DEBIAN_FRONTEND: noninteractive
   
@@ -126,5 +126,5 @@ jobs:
       if: always()
       with:
         #修改名字方便辨认是哪一个型号的固件，Padavan_内核版本(机器型号)
-        name: Padavan3.4(MSG1500)
+        name: Padavan4.4(MSG1500)
         path: /opt/images
