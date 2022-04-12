@@ -16,7 +16,7 @@ on:
     
 env:
   KERNEL: 4.4
-  TNAME: XY-C1
+  TNAME: NEWIFI-MINI
   DEBIAN_FRONTEND: noninteractive
   
 jobs:
